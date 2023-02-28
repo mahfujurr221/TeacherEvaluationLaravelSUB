@@ -1,0 +1,311 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+
+img{
+  border: 0px;
+}
+
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+
+}
+
+.card_header_title{
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.card_header_title i{
+  margin-right: 5px;
+}
+
+.card_header_btn a{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.card_header_btn a i{
+  margin-right: 5px;
+}
+
+table.custom_table{
+
+}
+
+.col_form_label{
+  text-align: right;
+  padding-right: 0px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form_control{
+
+}
+
+span.req_star{
+  color: red;
+  font-weight: bold;
+}
+
+table.custom_view_table{
+
+}
+
+table.custom_view_table tr td{
+  font-size: 15px;
+}
+
+table.custom_view_table tr td:first-child{
+  width: 29%;
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
+
+table.custom_view_table tr td:last-child{
+  width: 70%;
+}
+
+#sup_admin_profile table.custom_view_table tr td{
+  font-size: 15px;
+}
+
+#sup_admin_profile table.custom_view_table tr td:first-child{
+  width: 29%;
+  text-align: right;
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+/* top logo css*/
+.content-page .content .navbar-custom ul .top_logo h1{
+  margin-left:250px;
+}
+.content-page .content .navbar-custom ul .top_logo img{
+height: 50px;
+margin-right: 5px;
+}
+
+@media (max-width: 768px){
+  .content-page .content .navbar-custom ul .top_logo h1{
+    margin-left:150px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 565px){
+  .content-page .content .navbar-custom ul .top_logo h1{
+    font-size: 10px;
+    margin-left: 10px;
+    height: 20px;
+  }
+}
+
+
+/*dashboard total */
+#dashbord .row .card{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#dashbord .row .card .card-body h4{
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#dashbord .row .card .card-body i{
+  font-weight: bold;
+}
+
+
+#student_page .card{
+  background: rgba(178, 247, 209, 0.8);
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transform: scale(0.8);
+  transition: all linear 0.3s;
+}
+#student_page .card:hover{
+  transform: scale(0.9);
+}
+#student_page .card .card-header{
+  background-color: rgba(246, 244, 233, 0.8);
+  border-bottom: 1px solid gray;
+  height: 60px;
+}
+#student_page .card .card-header .dropdown_menu{
+  display: block;
+  color: black;
+  size:30px;
+}
+
+#question_submit .row .card{
+  box-shadow: 1px 1px 5px;
+}
+
+#question_submit .row .card .card-body .question .submit_btn{
+  color: white;
+  background: green;
+  border:1px solid green;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+#question_submit .row .card .card-body .question .submit_btn:hover{
+  background: white;
+  border:1px solid green;
+  color:green;
+  transition: all linear 0.3s;
+}
+
+/* Department page CSS */
+
+.main_content .add_admin_btn {
+  background: #198754;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.add_admin_btn i{
+  margin-right: 5px;
+}
+.main_content .add_admin_btn:hover {
+  background: white;
+  color: #198754;
+  border: 1px solid #198754;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.main_content .card{
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+/*hover button */
+.view_btn:hover{
+  color: green;
+  background: white;
+  border: 1px solid green;
+  transition: all linear 0.3s;
+}
+.view_btn{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 10px;
+  padding:6px 10px 5px 10px;
+  transition: all linear 0.3s;
+}
+.view_btn i{
+  margin-right: 5px;
+}
+
+.edit_btn:hover{
+  color: blue;
+  background: white;
+  border: 1px solid blue;
+  transition: all linear 0.3s;
+}
+.edit_btn{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 10px;
+  padding:6px 10px 5px 10px;
+  transition: all linear 0.3s;
+}
+.edit_btn i{
+  margin-right: 5px;
+}
+.delete_btn:hover{
+  color: red;
+  background: white;
+  border: 1px solid red;
+  transition: all linear 0.3s;
+}
+.delete_btn{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 10px;
+  padding:6px 10px 5px 10px;
+  transition: all linear 0.3s;
+}
+.delete_btn i {
+  margin-right: 5px;
+}
+
+.add_btn{
+  background: #198754;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.add_btn:hover {
+  background: white;
+  color: #198754;
+  border: 1px solid #198754;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+
+.reset_pass_btn{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 10px;
+  padding:6px 10px 5px 10px;
+  background: black;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.reset_pass_btn:hover{
+  background: white;
+  color: black;
+  border: 1px solid black;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+
+.status_btn{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 10px;
+  padding:6px 10px 5px 10px;
+  background: green;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+.status_btn:hover{
+  background: white;
+  color: green;
+  border: 1px solid green;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+
+.has-error .invalid-feedback{
+  display: block;
+  margin-left: 0px;
+}
+
+#admin_top_pic img{
+  border-radius: 50%;
+}
